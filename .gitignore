@@ -1,0 +1,15 @@
+# Ignore tout par défaut : seuls les fichiers de l'extension sont commités.
+*
+
+# Fichiers de l'extension
+!manifest.json
+!devtools.html
+!devtools.js
+!panel.html
+!panel.js
+!panel.css
+
+# Fichiers du dépôt
+!.gitignore
+!README.md
+!LICENSE

@@ -1,0 +1,1 @@
+browser.devtools.panels.create("Resend", "", "panel.html");
