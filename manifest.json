@@ -4,12 +4,12 @@
   "version": "1.2.0",
   "description": "Pick any request from the page, edit its URL, headers and body, resend it and inspect the response, right from the DevTools.",
   "author": "Antoine Bonamy",
+  "homepage_url": "https://github.com/antoine-bonamy/resend",
   "icons": {
     "48": "icons/icon.svg",
     "96": "icons/icon.svg"
   },
   "devtools_page": "devtools.html",
-  "permissions": ["clipboardWrite"],
   "browser_specific_settings": {
     "gecko": {
       "id": "resend@antoine-bonamy",

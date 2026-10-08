@@ -77,7 +77,7 @@ In IntelliJ, the shared **Package extension** run configuration runs the same sc
 
 ## Privacy
 
-Resend does not collect or send any data. Requests are only sent when you click **Send**, from the inspected page itself. The only thing stored is which sections are shown or hidden, in the extension's local storage.
+Resend does not collect or send any data, and needs no special permission. Requests are only sent when you click **Send**, from the inspected page itself. The only thing stored is which sections are shown or hidden, in the extension's local storage.
 
 ## Project structure
 
@@ -88,3 +88,7 @@ Resend does not collect or send any data. Requests are only sent when you click 
 | `panel.html`, `panel.css`, `panel.js` | The panel: request list, editors and response view |
 | `icons/icon.svg` | Extension icon |
 | `package.sh` | Builds the archive for addons.mozilla.org |
+
+## License
+
+[MIT](LICENSE)
