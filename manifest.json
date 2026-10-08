@@ -1,11 +1,22 @@
 {
   "manifest_version": 2,
   "name": "Resend",
-  "version": "1.1",
+  "version": "1.2.0",
   "description": "Pick any request from the page, edit its URL, headers and body, resend it and inspect the response, right from the DevTools.",
+  "author": "Antoine Bonamy",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
   "devtools_page": "devtools.html",
   "permissions": ["clipboardWrite"],
   "browser_specific_settings": {
-    "gecko": { "id": "resend@local" }
+    "gecko": {
+      "id": "resend@antoine-bonamy",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
   }
 }

@@ -1,1 +1,1 @@
-browser.devtools.panels.create("Resend", "", "panel.html");
+browser.devtools.panels.create("Resend", "icons/icon.svg", "panel.html");

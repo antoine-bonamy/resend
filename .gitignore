@@ -8,6 +8,13 @@
 !panel.html
 !panel.js
 !panel.css
+!icons/
+!icons/*
+
+# Packaging
+!package.sh
+!.run/
+!.run/*
 
 # Fichiers du dépôt
 !.gitignore
